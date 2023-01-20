@@ -1,9 +1,10 @@
+//Accessing classes and elements from required documents and creating constants to store them in
 const display = document.querySelector("#display");
 const buttons = document.querySelectorAll("button");
 const hamburger = document.querySelector(".hamburger");
 
 //Navbar phone screen code
-hamburger.onclick = function() {
+hamburger.onclick = function () {
   navBar = document.querySelector(".nav-bar");
   navBar.classList.toggle("active");
 };
